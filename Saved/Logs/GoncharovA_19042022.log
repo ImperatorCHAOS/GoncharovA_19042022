@@ -822,3 +822,38 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.24-16.23.52:325][415]SourceControl: Error: The file will have its original line endings in your working directory
 [2022.04.24-16.23.52:325][415]SourceControl: Error: warning: LF will be replaced by CRLF in README.md.
 [2022.04.24-16.23.52:325][415]SourceControl: Error: The file will have its original line endings in your working directory
+[2022.04.24-16.27.58:004][342]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.04.24-16.27.59:294][342]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.04.24-16.27.59:304][342]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.04.24-16.27.59:311][342]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.04.24-16.28.08:060][555]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2022.04.24-16.28.08:519][555]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.04.24-16.28.08:801][573]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/NewBlueprint.NewBlueprint
+[2022.04.24-16.28.10:066][573]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2022.04.24-16.28.15:113][726]LogSlate: Window 'NewBlueprint' being destroyed
+[2022.04.24-16.28.15:120][726]LogSlate: Window 'NewBlueprint' being destroyed
+[2022.04.24-16.28.15:298][726]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.04.24-16.28.15:299][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.24-16.28.20:613][320]LogContentBrowser: Attempting asset rename: NewBlueprint -> TestActor1
+[2022.04.24-16.28.21:305][320]LogMetaData: Removing '/Game/Trash/TestActor1.TestActor1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Trash/NewBlueprint.PackageMetaData'
+[2022.04.24-16.28.21:305][320]LogMetaData: Removing '/Game/Trash/TestActor1.SKEL_TestActor1_C:UserConstructionScript' ref from Metadata '/Game/Trash/NewBlueprint.PackageMetaData'
+[2022.04.24-16.28.21:305][320]LogMetaData: Removing '/Game/Trash/TestActor1.SKEL_TestActor1_C' ref from Metadata '/Game/Trash/NewBlueprint.PackageMetaData'
+[2022.04.24-16.28.21:305][320]LogMetaData: Removing '/Game/Trash/TestActor1.TestActor1_C' ref from Metadata '/Game/Trash/NewBlueprint.PackageMetaData'
+[2022.04.24-16.28.21:305][320]LogMetaData: Removing '/Game/Trash/TestActor1.TestActor1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Trash/NewBlueprint.PackageMetaData'
+[2022.04.24-16.28.21:305][320]LogMetaData: Removing '/Game/Trash/TestActor1.TestActor1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Trash/NewBlueprint.PackageMetaData'
+[2022.04.24-16.28.21:305][320]LogMetaData: Removing '/Game/Trash/TestActor1.TestActor1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Trash/NewBlueprint.PackageMetaData'
+[2022.04.24-16.28.21:361][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Trash/TestActor1" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/Trash/TestActor1.uasset" SILENT=true
+[2022.04.24-16.28.21:599][320]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/TestActor1EA343B554579BE7239655FA9A669A32E.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/Trash/TestActor1.uasset'
+[2022.04.24-16.28.22:146][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.04.24-16.28.22:165][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.04.24-16.28.22:175][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.04.24-16.28.22:421][320]AssetCheck: New page: Asset Save: TestActor1
+[2022.04.24-16.28.22:421][320]LogContentValidation: Display: Validating Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.28.40:256][736]LogSlate: Window 'Color Picker' being destroyed
+[2022.04.24-16.28.51:456][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultEmpty" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.24-16.28.51:494][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2022.04.24-16.28.51:543][ 44]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/DefaultEmptyFBDD99694CBEE392B06354B934B09F11.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap'
+[2022.04.24-16.28.51:604][ 44]AssetCheck: New page: Asset Save: DefaultEmpty
+[2022.04.24-16.28.51:605][ 44]LogContentValidation: Display: Validating World /Game/DefaultEmpty.DefaultEmpty
+[2022.04.24-16.28.59:965][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.04.24-16.29.00:789][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
