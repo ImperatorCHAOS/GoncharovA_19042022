@@ -802,3 +802,84 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.24-21.53.43:688][850]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/DefaultEmpty34C43F574CABC4A88BD7698C5BA5CF67.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap'
 [2022.04.24-21.53.43:707][850]AssetCheck: New page: Asset Save: DefaultEmpty
 [2022.04.24-21.53.43:707][850]LogContentValidation: Display: Validating World /Game/DefaultEmpty.DefaultEmpty
+[2022.04.24-21.57.53:111][969]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2022.04.24-21.58.06:819][586]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2022.04.24-21.58.22:365][401]Cmd: EDCALLBACK SURFPROPS
+[2022.04.24-21.59.40:244][355]Cmd: EDCALLBACK SURFPROPS
+[2022.04.24-21.59.57:161][332]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GoncharovA/Interaction/BaseLamp.BaseLamp
+[2022.04.24-21.59.57:442][332]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2022.04.24-21.59.58:376][332]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.24-22.00.00:579][519]LogSlate: Window 'BaseLamp' being destroyed
+[2022.04.24-22.00.05:384][987]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2022.04.24-22.00.11:463][663]LogStaticMesh: Building static mesh SM_Lamp_Ceiling...
+[2022.04.24-22.00.11:594][663]LogStaticMesh: Built static mesh [0.12s] /Game/Download/StarterContent/Props/SM_Lamp_Ceiling.SM_Lamp_Ceiling
+[2022.04.24-22.01.01:641][624]BlueprintLog: New page: Compile BaseLamp
+[2022.04.24-22.01.01:714][624]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2022.04.24-22.01.53:521][315]LogEditorTransaction: Undo Modify Component(s)
+[2022.04.24-22.01.53:985][328]LogEditorTransaction: Undo Modify Component(s)
+[2022.04.24-22.01.55:490][503]LogEditorTransaction: Undo Detach Component
+[2022.04.24-22.01.56:114][575]LogEditorTransaction: Undo Add Component
+[2022.04.24-22.01.56:662][639]LogEditorTransaction: Undo Edit Static Mesh
+[2022.04.24-22.01.57:128][694]LogEditorTransaction: Undo Select Surface
+[2022.04.24-22.02.24:866][418]BlueprintLog: New page: Compile BaseLamp
+[2022.04.24-22.02.24:904][418]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2022.04.24-22.03.38:200][896]BlueprintLog: New page: Compile BaseLamp
+[2022.04.24-22.03.38:231][896]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2022.04.24-22.04.40:267][256]BlueprintLog: New page: Compile BaseLamp
+[2022.04.24-22.04.40:299][256]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2022.04.24-22.06.18:717][122]LogSlate: Took 0.066187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.04.24-22.07.19:911][398]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2022.04.24-22.07.19:913][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultEmpty" FILE="../../../../../Blueprints/GoncharovA_19042022/Saved/Autosaves/Game/DefaultEmpty_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.24-22.07.19:919][398]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/DefaultEmpty_Auto1F74C17D44F48F5509BDDD681EA7E597A.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Saved/Autosaves/Game/DefaultEmpty_Auto1.umap'
+[2022.04.24-22.07.19:921][398]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/DefaultEmpty' took 0.028
+[2022.04.24-22.07.19:921][398]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.028
+[2022.04.24-22.07.19:921][398]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/GoncharovA/Interaction/BaseLamp] ([2] browsable assets)...
+[2022.04.24-22.07.19:937][398]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GoncharovA/Interaction/BaseLamp.BaseLamp]
+[2022.04.24-22.07.19:952][398]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/GoncharovA/Interaction/BaseLamp.BaseLamp]
+[2022.04.24-22.07.19:952][398]OBJ SavePackage: Finished generating thumbnails for package [/Game/GoncharovA/Interaction/BaseLamp]
+[2022.04.24-22.07.19:964][398]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/BaseLamp_Auto1F5C4A92745E14CFE7869128659A7C640.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Saved/Autosaves/Game/GoncharovA/Interaction/BaseLamp_Auto1.uasset'
+[2022.04.24-22.07.19:965][398]LogFileHelpers: Auto-saving content packages took 0.045
+[2022.04.24-22.07.43:435][469]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.24-22.07.43:435][469]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.24-22.07.45:456][690]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.24-22.07.45:456][690]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.24-22.08.57:790][341]LogEditorTransaction: Undo Delete current selection
+[2022.04.24-22.11.43:315][865]BlueprintLog: New page: Compile BaseLamp
+[2022.04.24-22.11.43:348][865]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2022.04.24-22.11.46:074][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.04.24-22.12.17:094][329]LogContentBrowser: Attempting asset rename: BaseLamp -> TestBaseLamp
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.TestBaseLamp:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.TestBaseLamp_C' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.TestBaseLamp:EventGraph.K2Node_Event_0' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.TestBaseLamp:EventGraph.K2Node_Event_1' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.TestBaseLamp:EventGraph.K2Node_Event_2' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.SKEL_TestBaseLamp_C:UserConstructionScript' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.SKEL_TestBaseLamp_C' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.SKEL_TestBaseLamp_C:ReceiveTick' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.SKEL_TestBaseLamp_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.SKEL_TestBaseLamp_C:ReceiveBeginPlay' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:638][329]LogMetaData: Removing '/Game/GoncharovA/Interaction/TestBaseLamp.TestBaseLamp:TestFunction.K2Node_FunctionEntry_0' ref from Metadata '/Game/GoncharovA/Interaction/BaseLamp.PackageMetaData'
+[2022.04.24-22.12.17:686][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GoncharovA/Interaction/TestBaseLamp" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/GoncharovA/Interaction/TestBaseLamp.uasset" SILENT=true
+[2022.04.24-22.12.17:704][329]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/TestBaseLamp3E479D9D42959C74981332978B079882.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/GoncharovA/Interaction/TestBaseLamp.uasset'
+[2022.04.24-22.12.17:917][329]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GoncharovA/Interaction/BaseLamp" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/GoncharovA/Interaction/BaseLamp.uasset" SILENT=true
+[2022.04.24-22.12.17:918][329]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/BaseLampB884ECE2479E374C25BFC88E57868E26.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/GoncharovA/Interaction/BaseLamp.uasset'
+[2022.04.24-22.12.18:294][329]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.24-22.12.18:294][329]LogContentValidation: Display: Validating Blueprint /Game/GoncharovA/Interaction/TestBaseLamp.TestBaseLamp
+[2022.04.24-22.12.18:294][329]LogContentValidation: Display: Validating ObjectRedirector /Game/GoncharovA/Interaction/BaseLamp.BaseLamp
+[2022.04.24-22.12.18:294][329]LogContentValidation: Display: Validating ObjectRedirector /Game/GoncharovA/Interaction/BaseLamp.Default__BaseLamp_C
+[2022.04.24-22.12.18:294][329]LogContentValidation: Display: Validating ObjectRedirector /Game/GoncharovA/Interaction/BaseLamp.BaseLamp_C
+[2022.04.24-22.12.20:356][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultEmpty" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.24-22.12.20:374][561]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2022.04.24-22.12.20:383][561]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/DefaultEmpty892E1C7D4260ECD714E873B2960F990C.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap'
+[2022.04.24-22.12.20:405][561]AssetCheck: New page: Asset Save: DefaultEmpty
+[2022.04.24-22.12.20:405][561]LogContentValidation: Display: Validating World /Game/DefaultEmpty.DefaultEmpty
+[2022.04.24-22.12.53:139][484]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.04.24-22.12.53:151][484]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.04.24-22.12.53:162][484]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.04.24-22.13.03:572][732]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2022.04.24-22.13.03:669][732]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.04.24-22.13.05:739][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultEmpty" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.24-22.13.05:757][950]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2022.04.24-22.13.05:765][950]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/DefaultEmpty995A7FC54FB14A0BEFA4C0BAA7C3F851.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap'
+[2022.04.24-22.13.05:791][950]AssetCheck: New page: Asset Save: DefaultEmpty
+[2022.04.24-22.13.05:791][950]LogContentValidation: Display: Validating World /Game/DefaultEmpty.DefaultEmpty
