@@ -857,3 +857,46 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.24-16.28.51:605][ 44]LogContentValidation: Display: Validating World /Game/DefaultEmpty.DefaultEmpty
 [2022.04.24-16.28.59:965][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
 [2022.04.24-16.29.00:789][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.04.24-16.29.49:279][859]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.29.51:849][ 97]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.29.51:856][ 97]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.29.51:860][ 97]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2022.04.24-16.29.51:860][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.24-16.30.04:311][662]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.30.25:195][738]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.30.25:201][738]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.30.25:203][738]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.24-16.30.25:203][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.24-16.30.32:979][152]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.30.42:889][223]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.30.42:896][223]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.30.42:899][223]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.04.24-16.30.42:900][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.24-16.31.00:696][312]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.31.28:239][499]LogSlate: Window 'My Blueprint' being destroyed
+[2022.04.24-16.31.28:244][499]LogSlate: Window 'My Blueprint' being destroyed
+[2022.04.24-16.31.29:714][669]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.31.29:743][669]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.04.24-16.31.29:744][669]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.24-16.31.30:268][721]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2022.04.24-16.31.53:979][346]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.32.07:878][924]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.32.07:886][924]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.32.07:888][924]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.24-16.32.07:888][924]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.24-16.32.19:479][128]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.32.23:521][562]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.32.23:530][562]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.04.24-16.32.23:530][562]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.24-16.32.23:594][562]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.32.23:955][562]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.04.24-16.32.29:332][167]LogRenderer: Reallocating scene render targets to support 1208x684 Format 10 NumSamples 1 (Frame:1).
+[2022.04.24-16.32.41:637][247]LogSlate: Took 0.020798 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.04.24-16.33.07:344][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Trash/TestActor1" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/Trash/TestActor1.uasset" SILENT=true
+[2022.04.24-16.33.07:358][580]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/TestActor1D6995D09423350F4A84F6DA839E1E2D5.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/Trash/TestActor1.uasset'
+[2022.04.24-16.33.07:368][580]AssetCheck: New page: Asset Save: TestActor1
+[2022.04.24-16.33.07:368][580]LogContentValidation: Display: Validating Blueprint /Game/Trash/TestActor1.TestActor1
+[2022.04.24-16.33.09:018][758]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.33.09:025][758]LogSlate: Window 'TestActor1' being destroyed
+[2022.04.24-16.33.09:027][758]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.04.24-16.33.09:027][758]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
