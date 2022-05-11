@@ -1034,3 +1034,617 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.11-20.18.37:109][352]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/DefaultEmptyB89FF0104DDDF9B671D28CABBCCDBB31.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap'
 [2022.05.11-20.18.37:128][352]AssetCheck: New page: Asset Save: DefaultEmpty
 [2022.05.11-20.18.37:128][352]LogContentValidation: Display: Validating World /Game/DefaultEmpty.DefaultEmpty
+[2022.05.11-20.19.49:680][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultEmpty" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.11-20.19.49:701][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.05.11-20.19.49:773][  0]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/DefaultEmptyA66F3E1B4D4B053C8FCF7F95E67B9202.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap'
+[2022.05.11-20.19.49:796][  0]AssetCheck: New page: Asset Save: DefaultEmpty
+[2022.05.11-20.19.49:796][  0]LogContentValidation: Display: Validating World /Game/DefaultEmpty.DefaultEmpty
+[2022.05.11-20.21.39:131][334]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GoncharovA/Characters/MainCharacter.MainCharacter
+[2022.05.11-20.22.13:902][385]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.11-20.22.13:907][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-20.22.13:907][385]PIE: New page: PIE session: DefaultEmpty (12 мая 2022 г., 02:22:13)
+[2022.05.11-20.22.13:908][385]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.22.13:914][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006289s)
+[2022.05.11-20.22.13:915][385]LogAIModule: Creating AISystem for world DefaultEmpty
+[2022.05.11-20.22.13:915][385]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2022.05.11-20.22.13:915][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultEmpty.DefaultEmpty to /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty (0.007315s)
+[2022.05.11-20.22.13:938][385]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2022.05.11-20.22.13:939][385]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.11-20.22.13:939][385]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-20.22.13:939][385]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-20.22.13:939][385]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-20.22.13:939][385]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-20.22.13:939][385]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-20.22.13:939][385]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.11-20.22.13:939][385]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-20.22.13:939][385]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-20.22.13:940][385]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.11-20.22.13:940][385]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.11-20.22.13:944][385]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.11-20.22.13:944][385]LogAudioMixer: Display: 1: FrontRight
+[2022.05.11-20.22.13:944][385]LogAudioMixer: Display: 2: FrontCenter
+[2022.05.11-20.22.13:944][385]LogAudioMixer: Display: 3: LowFrequency
+[2022.05.11-20.22.13:944][385]LogAudioMixer: Display: 4: BackLeft
+[2022.05.11-20.22.13:944][385]LogAudioMixer: Display: 5: BackRight
+[2022.05.11-20.22.13:944][385]LogAudioMixer: Display: 6: SideLeft
+[2022.05.11-20.22.13:944][385]LogAudioMixer: Display: 7: SideRight
+[2022.05.11-20.22.13:958][385]LogAudioMixer: Display: Using Audio Device Динамики (5- Logitech G930 Gaming Headset)
+[2022.05.11-20.22.13:958][385]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-20.22.13:958][385]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-20.22.13:958][385]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-20.22.13:959][385]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.11-20.22.13:959][385]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.11-20.22.13:959][385]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.05.11-20.22.13:970][385]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.11-20.22.13:970][385]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.11-20.22.13:970][385]LogInit: FAudioDevice initialized.
+[2022.05.11-20.22.13:970][385]LogAudio: Display: Audio Device (ID: 3) registered with world 'DefaultEmpty'.
+[2022.05.11-20.22.14:030][385]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.22.14:030][385]LogLoad: Game class is 'MainGM_C'
+[2022.05.11-20.22.14:032][385]LogWorld: Bringing World /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty up for play (max tick rate 0) at 2022.05.11-23.22.14
+[2022.05.11-20.22.14:032][385]LogWorld: Bringing up level for play took: 0.001859
+[2022.05.11-20.22.14:032][385]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.05.11-20.22.14:034][385]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.05.11-20.22.14:212][385]PIE: Server logged in
+[2022.05.11-20.22.14:213][385]PIE: Play in editor total start time 0,306 seconds.
+[2022.05.11-20.22.14:331][386]LogRenderer: Reallocating scene render targets to support 1280x900 Format 10 NumSamples 1 (Frame:1).
+[2022.05.11-20.22.18:745][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.22.18:745][887]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.22.18:745][887]LogSlate: Window 'GoncharovA_19042022 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.11-20.22.18:748][887]LogWorld: UWorld::CleanupWorld for DefaultEmpty, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-20.22.18:748][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.22.18:753][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-20.22.18:764][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.22.18:784][887]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.11-20.22.18:785][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.22.18:785][887]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.22.18:803][887]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.05.11-20.22.18:820][888]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.05.11-20.22.43:958][150]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.11-20.22.43:963][150]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.05.11-20.22.43:964][150]LogPlayLevel: [PlayLevel] Compiling MainCharacter before play...
+[2022.05.11-20.22.44:006][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2022.05.11-20.22.44:007][150]LogPlayLevel: PlayLevel: Blueprint regeneration took 43 ms (1 blueprints)
+[2022.05.11-20.22.44:007][150]PIE: New page: PIE session: DefaultEmpty (12 мая 2022 г., 02:22:44)
+[2022.05.11-20.22.44:007][150]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.22.44:014][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006068s)
+[2022.05.11-20.22.44:014][150]LogAIModule: Creating AISystem for world DefaultEmpty
+[2022.05.11-20.22.44:015][150]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2022.05.11-20.22.44:015][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultEmpty.DefaultEmpty to /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty (0.007054s)
+[2022.05.11-20.22.44:037][150]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.05.11-20.22.44:038][150]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.05.11-20.22.44:038][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-20.22.44:038][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-20.22.44:038][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-20.22.44:038][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-20.22.44:038][150]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-20.22.44:038][150]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.11-20.22.44:038][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-20.22.44:038][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-20.22.44:038][150]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.11-20.22.44:038][150]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.11-20.22.44:042][150]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.11-20.22.44:042][150]LogAudioMixer: Display: 1: FrontRight
+[2022.05.11-20.22.44:042][150]LogAudioMixer: Display: 2: FrontCenter
+[2022.05.11-20.22.44:042][150]LogAudioMixer: Display: 3: LowFrequency
+[2022.05.11-20.22.44:042][150]LogAudioMixer: Display: 4: BackLeft
+[2022.05.11-20.22.44:042][150]LogAudioMixer: Display: 5: BackRight
+[2022.05.11-20.22.44:042][150]LogAudioMixer: Display: 6: SideLeft
+[2022.05.11-20.22.44:042][150]LogAudioMixer: Display: 7: SideRight
+[2022.05.11-20.22.44:055][150]LogAudioMixer: Display: Using Audio Device Динамики (5- Logitech G930 Gaming Headset)
+[2022.05.11-20.22.44:055][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-20.22.44:055][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-20.22.44:055][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-20.22.44:055][150]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.11-20.22.44:055][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.11-20.22.44:055][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.05.11-20.22.44:056][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.11-20.22.44:056][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.11-20.22.44:056][150]LogInit: FAudioDevice initialized.
+[2022.05.11-20.22.44:056][150]LogAudio: Display: Audio Device (ID: 4) registered with world 'DefaultEmpty'.
+[2022.05.11-20.22.44:112][150]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.22.44:112][150]LogLoad: Game class is 'MainGM_C'
+[2022.05.11-20.22.44:114][150]LogWorld: Bringing World /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty up for play (max tick rate 0) at 2022.05.11-23.22.44
+[2022.05.11-20.22.44:115][150]LogWorld: Bringing up level for play took: 0.001970
+[2022.05.11-20.22.44:115][150]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.05.11-20.22.44:116][150]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.05.11-20.22.44:117][150]PIE: Server logged in
+[2022.05.11-20.22.44:118][150]PIE: Play in editor total start time 0,155 seconds.
+[2022.05.11-20.22.44:119][150]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:235][151]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:242][152]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:251][153]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:259][154]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:267][155]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:276][156]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:284][157]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:292][158]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:301][159]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:309][160]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:317][161]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:326][162]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:334][163]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:342][164]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:351][165]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:359][166]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:367][167]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:375][168]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:384][169]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:392][170]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:400][171]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:409][172]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:417][173]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:425][174]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:434][175]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:442][176]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:450][177]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:459][178]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:467][179]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:475][180]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:484][181]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:492][182]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:500][183]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:509][184]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:517][185]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:525][186]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:534][187]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:542][188]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:550][189]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:559][190]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:567][191]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:575][192]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:584][193]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:592][194]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:600][195]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:608][196]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:617][197]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:625][198]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:634][199]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:642][200]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:650][201]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:659][202]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:667][203]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:675][204]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:684][205]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:692][206]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:700][207]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:709][208]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:717][209]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:725][210]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:734][211]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:742][212]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:750][213]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:759][214]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:767][215]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:775][216]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:784][217]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:792][218]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:800][219]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:808][220]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:817][221]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:825][222]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:833][223]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:842][224]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:850][225]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:858][226]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:867][227]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:875][228]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:883][229]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:892][230]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:900][231]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:908][232]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:917][233]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:925][234]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:933][235]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:942][236]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:950][237]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:958][238]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:967][239]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:975][240]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:983][241]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.44:992][242]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:000][243]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:008][244]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:017][245]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:025][246]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:033][247]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:042][248]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:050][249]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:058][250]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:067][251]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:075][252]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:083][253]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:091][254]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:101][255]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:109][256]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:117][257]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:126][258]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:134][259]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:142][260]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:151][261]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:159][262]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:167][263]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:176][264]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:184][265]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:192][266]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:201][267]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:209][268]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:217][269]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:226][270]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:234][271]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:242][272]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:251][273]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:259][274]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:267][275]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:276][276]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:284][277]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:292][278]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:304][279]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:326][280]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:334][281]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:343][282]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:351][283]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:359][284]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:367][285]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:376][286]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:384][287]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:392][288]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:401][289]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:409][290]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:417][291]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:426][292]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:434][293]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:442][294]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:451][295]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:459][296]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:467][297]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:476][298]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:484][299]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:492][300]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:501][301]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:509][302]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:517][303]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:526][304]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:534][305]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:542][306]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:551][307]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:559][308]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:567][309]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:576][310]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:642][318]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.45:684][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.22.45:684][318]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.22.45:684][318]LogSlate: Window 'GoncharovA_19042022 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.11-20.22.45:686][318]LogWorld: UWorld::CleanupWorld for DefaultEmpty, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-20.22.45:687][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.22.45:695][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-20.22.45:706][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.22.45:727][318]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.22.45:728][318]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.22.45:744][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2022.05.11-20.22.45:757][319]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.05.11-20.22.50:703][405]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.11-20.22.50:708][405]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-20.22.50:709][405]PIE: New page: PIE session: DefaultEmpty (12 мая 2022 г., 02:22:50)
+[2022.05.11-20.22.50:709][405]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.22.50:715][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005959s)
+[2022.05.11-20.22.50:715][405]LogAIModule: Creating AISystem for world DefaultEmpty
+[2022.05.11-20.22.50:716][405]LogPlayLevel: PIE: World Init took: (0.000871s)
+[2022.05.11-20.22.50:716][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultEmpty.DefaultEmpty to /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty (0.006939s)
+[2022.05.11-20.22.50:739][405]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.05.11-20.22.50:740][405]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.05.11-20.22.50:740][405]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-20.22.50:740][405]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-20.22.50:740][405]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-20.22.50:740][405]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-20.22.50:740][405]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-20.22.50:740][405]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.11-20.22.50:740][405]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-20.22.50:740][405]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-20.22.50:740][405]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.11-20.22.50:740][405]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.11-20.22.50:744][405]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.11-20.22.50:744][405]LogAudioMixer: Display: 1: FrontRight
+[2022.05.11-20.22.50:744][405]LogAudioMixer: Display: 2: FrontCenter
+[2022.05.11-20.22.50:744][405]LogAudioMixer: Display: 3: LowFrequency
+[2022.05.11-20.22.50:744][405]LogAudioMixer: Display: 4: BackLeft
+[2022.05.11-20.22.50:744][405]LogAudioMixer: Display: 5: BackRight
+[2022.05.11-20.22.50:744][405]LogAudioMixer: Display: 6: SideLeft
+[2022.05.11-20.22.50:744][405]LogAudioMixer: Display: 7: SideRight
+[2022.05.11-20.22.50:758][405]LogAudioMixer: Display: Using Audio Device Динамики (5- Logitech G930 Gaming Headset)
+[2022.05.11-20.22.50:759][405]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-20.22.50:759][405]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-20.22.50:759][405]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-20.22.50:759][405]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.11-20.22.50:759][405]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.11-20.22.50:759][405]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.05.11-20.22.50:770][405]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.11-20.22.50:770][405]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.11-20.22.50:770][405]LogInit: FAudioDevice initialized.
+[2022.05.11-20.22.50:770][405]LogAudio: Display: Audio Device (ID: 5) registered with world 'DefaultEmpty'.
+[2022.05.11-20.22.50:828][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.22.50:828][405]LogLoad: Game class is 'MainGM_C'
+[2022.05.11-20.22.50:830][405]LogWorld: Bringing World /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty up for play (max tick rate 0) at 2022.05.11-23.22.50
+[2022.05.11-20.22.50:831][405]LogWorld: Bringing up level for play took: 0.001910
+[2022.05.11-20.22.50:831][405]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.05.11-20.22.50:832][405]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.05.11-20.22.50:834][405]PIE: Server logged in
+[2022.05.11-20.22.50:834][405]PIE: Play in editor total start time 0,126 seconds.
+[2022.05.11-20.22.50:835][405]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.50:946][406]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.50:959][407]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.50:967][408]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.50:976][409]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.50:984][410]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.50:992][411]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:001][412]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:009][413]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:017][414]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:027][415]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:034][416]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:042][417]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:052][418]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:060][419]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:067][420]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:076][421]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:084][422]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:092][423]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:101][424]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:110][425]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:118][426]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:126][427]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:134][428]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:143][429]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:151][430]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:159][431]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:168][432]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:176][433]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:184][434]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:193][435]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:201][436]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:209][437]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:217][438]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:226][439]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:234][440]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:243][441]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:252][442]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:260][443]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:268][444]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:276][445]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:285][446]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:293][447]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:301][448]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:310][449]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:318][450]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:326][451]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:339][452]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:358][453]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:366][454]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:376][455]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:384][456]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:392][457]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:400][458]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:408][459]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:416][460]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:425][461]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:433][462]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:441][463]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:450][464]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:458][465]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:466][466]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:475][467]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:483][468]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:491][469]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:500][470]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:509][471]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:517][472]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:526][473]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:533][474]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:542][475]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:550][476]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:559][477]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:566][478]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:575][479]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:583][480]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:676][491]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2022.05.11-20.22.51:705][491]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.22.51:705][491]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.22.51:705][491]LogSlate: Window 'GoncharovA_19042022 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.11-20.22.51:708][491]LogWorld: UWorld::CleanupWorld for DefaultEmpty, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-20.22.51:708][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.22.51:712][491]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-20.22.51:723][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.22.51:744][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.22.51:745][491]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.22.51:762][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.05.11-20.22.51:782][493]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.05.11-20.23.17:744][282]BlueprintLog: New page: Compile MainCharacter
+[2022.05.11-20.23.17:802][282]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2022.05.11-20.23.22:617][617]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.11-20.23.22:622][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-20.23.22:622][617]PIE: New page: PIE session: DefaultEmpty (12 мая 2022 г., 02:23:22)
+[2022.05.11-20.23.22:622][617]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.23.22:629][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006398s)
+[2022.05.11-20.23.22:629][617]LogAIModule: Creating AISystem for world DefaultEmpty
+[2022.05.11-20.23.22:630][617]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2022.05.11-20.23.22:630][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultEmpty.DefaultEmpty to /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty (0.007429s)
+[2022.05.11-20.23.22:653][617]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2022.05.11-20.23.22:653][617]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.05.11-20.23.22:653][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-20.23.22:653][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-20.23.22:653][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-20.23.22:653][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-20.23.22:653][617]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-20.23.22:653][617]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.11-20.23.22:653][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-20.23.22:653][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-20.23.22:654][617]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.11-20.23.22:654][617]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.11-20.23.22:657][617]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.11-20.23.22:657][617]LogAudioMixer: Display: 1: FrontRight
+[2022.05.11-20.23.22:657][617]LogAudioMixer: Display: 2: FrontCenter
+[2022.05.11-20.23.22:657][617]LogAudioMixer: Display: 3: LowFrequency
+[2022.05.11-20.23.22:657][617]LogAudioMixer: Display: 4: BackLeft
+[2022.05.11-20.23.22:657][617]LogAudioMixer: Display: 5: BackRight
+[2022.05.11-20.23.22:657][617]LogAudioMixer: Display: 6: SideLeft
+[2022.05.11-20.23.22:657][617]LogAudioMixer: Display: 7: SideRight
+[2022.05.11-20.23.22:671][617]LogAudioMixer: Display: Using Audio Device Динамики (5- Logitech G930 Gaming Headset)
+[2022.05.11-20.23.22:671][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-20.23.22:671][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-20.23.22:671][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-20.23.22:671][617]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.11-20.23.22:672][617]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.11-20.23.22:672][617]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.05.11-20.23.22:683][617]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.11-20.23.22:684][617]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.11-20.23.22:684][617]LogInit: FAudioDevice initialized.
+[2022.05.11-20.23.22:684][617]LogAudio: Display: Audio Device (ID: 6) registered with world 'DefaultEmpty'.
+[2022.05.11-20.23.22:728][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.23.22:728][617]LogLoad: Game class is 'MainGM_C'
+[2022.05.11-20.23.22:731][617]LogWorld: Bringing World /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty up for play (max tick rate 0) at 2022.05.11-23.23.22
+[2022.05.11-20.23.22:731][617]LogWorld: Bringing up level for play took: 0.001981
+[2022.05.11-20.23.22:731][617]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.05.11-20.23.22:732][617]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.05.11-20.23.22:734][617]PIE: Server logged in
+[2022.05.11-20.23.22:734][617]PIE: Play in editor total start time 0,113 seconds.
+[2022.05.11-20.23.28:655][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.23.28:655][306]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.23.28:656][306]LogSlate: Window 'GoncharovA_19042022 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.11-20.23.28:663][306]LogWorld: UWorld::CleanupWorld for DefaultEmpty, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-20.23.28:663][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.23.28:673][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-20.23.28:686][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.23.28:707][306]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.11-20.23.28:708][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.23.28:708][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.23.28:726][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2022.05.11-20.23.28:738][307]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.05.11-20.24.23:023][898]BlueprintLog: New page: Compile MainCharacter
+[2022.05.11-20.24.23:065][898]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2022.05.11-20.24.23:851][972]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.11-20.24.23:856][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-20.24.23:856][972]PIE: New page: PIE session: DefaultEmpty (12 мая 2022 г., 02:24:23)
+[2022.05.11-20.24.23:856][972]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.24.23:862][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006019s)
+[2022.05.11-20.24.23:863][972]LogAIModule: Creating AISystem for world DefaultEmpty
+[2022.05.11-20.24.23:863][972]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2022.05.11-20.24.23:863][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultEmpty.DefaultEmpty to /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty (0.007020s)
+[2022.05.11-20.24.23:887][972]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.05.11-20.24.23:887][972]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.05.11-20.24.23:888][972]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-20.24.23:888][972]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-20.24.23:888][972]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-20.24.23:888][972]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-20.24.23:888][972]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-20.24.23:888][972]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.11-20.24.23:888][972]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-20.24.23:888][972]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-20.24.23:888][972]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.11-20.24.23:888][972]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.11-20.24.23:891][972]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.11-20.24.23:891][972]LogAudioMixer: Display: 1: FrontRight
+[2022.05.11-20.24.23:892][972]LogAudioMixer: Display: 2: FrontCenter
+[2022.05.11-20.24.23:892][972]LogAudioMixer: Display: 3: LowFrequency
+[2022.05.11-20.24.23:892][972]LogAudioMixer: Display: 4: BackLeft
+[2022.05.11-20.24.23:892][972]LogAudioMixer: Display: 5: BackRight
+[2022.05.11-20.24.23:892][972]LogAudioMixer: Display: 6: SideLeft
+[2022.05.11-20.24.23:892][972]LogAudioMixer: Display: 7: SideRight
+[2022.05.11-20.24.23:908][972]LogAudioMixer: Display: Using Audio Device Динамики (5- Logitech G930 Gaming Headset)
+[2022.05.11-20.24.23:908][972]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-20.24.23:908][972]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-20.24.23:908][972]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-20.24.23:909][972]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.11-20.24.23:909][972]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.11-20.24.23:909][972]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.05.11-20.24.23:921][972]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.11-20.24.23:921][972]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.11-20.24.23:921][972]LogInit: FAudioDevice initialized.
+[2022.05.11-20.24.23:921][972]LogAudio: Display: Audio Device (ID: 7) registered with world 'DefaultEmpty'.
+[2022.05.11-20.24.23:962][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.24.23:962][972]LogLoad: Game class is 'MainGM_C'
+[2022.05.11-20.24.23:964][972]LogWorld: Bringing World /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty up for play (max tick rate 0) at 2022.05.11-23.24.23
+[2022.05.11-20.24.23:964][972]LogWorld: Bringing up level for play took: 0.002075
+[2022.05.11-20.24.23:965][972]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.05.11-20.24.23:966][972]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.05.11-20.24.23:968][972]PIE: Server logged in
+[2022.05.11-20.24.23:968][972]PIE: Play in editor total start time 0,113 seconds.
+[2022.05.11-20.24.28:804][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.24.28:804][534]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.24.28:805][534]LogSlate: Window 'GoncharovA_19042022 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.11-20.24.28:811][534]LogWorld: UWorld::CleanupWorld for DefaultEmpty, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-20.24.28:811][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.24.28:821][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-20.24.28:833][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.24.28:854][534]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.11-20.24.28:854][534]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.24.28:855][534]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.24.28:872][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.05.11-20.24.28:887][535]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.05.11-20.25.01:860][261]BlueprintLog: New page: Compile MainCharacter
+[2022.05.11-20.25.01:934][261]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.05.11-20.25.55:393][665]BlueprintLog: New page: Compile MainCharacter
+[2022.05.11-20.25.55:450][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2022.05.11-20.25.56:559][790]LogTemp: Repeating last play command: Selected Viewport
+[2022.05.11-20.25.56:564][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.11-20.25.56:564][790]PIE: New page: PIE session: DefaultEmpty (12 мая 2022 г., 02:25:56)
+[2022.05.11-20.25.56:564][790]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.25.56:571][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006326s)
+[2022.05.11-20.25.56:571][790]LogAIModule: Creating AISystem for world DefaultEmpty
+[2022.05.11-20.25.56:572][790]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2022.05.11-20.25.56:572][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DefaultEmpty.DefaultEmpty to /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty (0.007317s)
+[2022.05.11-20.25.56:595][790]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2022.05.11-20.25.56:596][790]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.05.11-20.25.56:596][790]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.11-20.25.56:596][790]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.11-20.25.56:596][790]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.11-20.25.56:596][790]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.11-20.25.56:596][790]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.11-20.25.56:596][790]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.11-20.25.56:596][790]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.11-20.25.56:596][790]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.11-20.25.56:596][790]LogAudio: Display: Using built-in audio occlusion.
+[2022.05.11-20.25.56:596][790]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.11-20.25.56:600][790]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.11-20.25.56:600][790]LogAudioMixer: Display: 1: FrontRight
+[2022.05.11-20.25.56:600][790]LogAudioMixer: Display: 2: FrontCenter
+[2022.05.11-20.25.56:600][790]LogAudioMixer: Display: 3: LowFrequency
+[2022.05.11-20.25.56:600][790]LogAudioMixer: Display: 4: BackLeft
+[2022.05.11-20.25.56:600][790]LogAudioMixer: Display: 5: BackRight
+[2022.05.11-20.25.56:600][790]LogAudioMixer: Display: 6: SideLeft
+[2022.05.11-20.25.56:600][790]LogAudioMixer: Display: 7: SideRight
+[2022.05.11-20.25.56:613][790]LogAudioMixer: Display: Using Audio Device Динамики (5- Logitech G930 Gaming Headset)
+[2022.05.11-20.25.56:614][790]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.11-20.25.56:614][790]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.11-20.25.56:614][790]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.11-20.25.56:614][790]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.11-20.25.56:614][790]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.11-20.25.56:614][790]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192
+[2022.05.11-20.25.56:626][790]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.11-20.25.56:626][790]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.11-20.25.56:626][790]LogInit: FAudioDevice initialized.
+[2022.05.11-20.25.56:626][790]LogAudio: Display: Audio Device (ID: 8) registered with world 'DefaultEmpty'.
+[2022.05.11-20.25.56:678][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.25.56:679][790]LogLoad: Game class is 'MainGM_C'
+[2022.05.11-20.25.56:681][790]LogWorld: Bringing World /Game/UEDPIE_0_DefaultEmpty.DefaultEmpty up for play (max tick rate 0) at 2022.05.11-23.25.56
+[2022.05.11-20.25.56:681][790]LogWorld: Bringing up level for play took: 0.001871
+[2022.05.11-20.25.56:681][790]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.05.11-20.25.56:682][790]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.05.11-20.25.56:685][790]PIE: Server logged in
+[2022.05.11-20.25.56:685][790]PIE: Play in editor total start time 0,122 seconds.
+[2022.05.11-20.26.02:904][512]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.11-20.26.02:904][512]LogWorld: BeginTearingDown for /Game/UEDPIE_0_DefaultEmpty
+[2022.05.11-20.26.02:904][512]LogSlate: Window 'GoncharovA_19042022 Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.11-20.26.02:907][512]LogWorld: UWorld::CleanupWorld for DefaultEmpty, bSessionEnded=true, bCleanupResources=true
+[2022.05.11-20.26.02:907][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.26.02:911][512]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.11-20.26.02:922][512]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.11-20.26.02:943][512]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.11-20.26.02:943][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.26.02:944][512]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.11-20.26.02:961][512]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.05.11-20.26.02:983][514]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.05.11-20.26.16:462][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DefaultEmpty" FILE="../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.05.11-20.26.16:488][695]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.05.11-20.26.16:509][695]LogSavePackage: Moving '../../../../../Blueprints/GoncharovA_19042022/Saved/DefaultEmpty7DAECCFF43BCBBFCE877EC8DF1DC0FB0.tmp' to '../../../../../Blueprints/GoncharovA_19042022/Content/DefaultEmpty.umap'
+[2022.05.11-20.26.16:530][695]AssetCheck: New page: Asset Save: DefaultEmpty
+[2022.05.11-20.26.16:530][695]LogContentValidation: Display: Validating World /Game/DefaultEmpty.DefaultEmpty
